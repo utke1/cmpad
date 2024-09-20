@@ -101,7 +101,7 @@ then
 fi
 #
 # PKG_CONFIG_PATH
-PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$prefix/lib/pkgconfig"
+PKG_CONFIG_PATH="$prefix/lib/pkgconfig"
 PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$prefix/lib64/pkgconfig"
 PKG_CONFIG_PATH="$PKG_CONFIG_PATH:$prefix/share/pkgconfig"
 export PKG_CONFIT_PATH
